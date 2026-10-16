@@ -11,7 +11,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
         - name: download the repo 
-          use: actions/checkout@v4
+          uses: actions/checkout@v4
         - name: list the file
           run: |
             uname -a
