@@ -19,10 +19,10 @@ cat > .github/workflows/hello.yml << 'EOF'
 name: lab01
 on: push 
 jobs:
- lab01:
+ lab02:
    runs-on: ubuntu-latest
    steps:
-      -run: echo "hello"
+      - run: echo "hello"
 
 
 EOF
