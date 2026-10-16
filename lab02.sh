@@ -28,6 +28,6 @@ git add .
 
 git commit -m "this is second workflow called isnpect"
 
-git push -u origin
+git push -u origin main
 
 
