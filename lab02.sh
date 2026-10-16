@@ -40,6 +40,9 @@ git remote remove origin 2>/dev/null || true
 # Add your GitHub repository as the origin remote
 git remote add origin https://github.com/abdulfattahassad/actions-journey.git
 
+
+git pull origin main --allow-unrelated-histories
+
 # Push your code to GitHub
 git push -u origin main
 
