@@ -9,7 +9,7 @@ on: push
 jobs:
  job02:
      runs-on: ubuntu-latest
-     steps :
+     steps:
         - name: download the repo 
           use: actions/checkout@v4
         - name: list the file
