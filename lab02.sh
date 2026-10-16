@@ -28,6 +28,21 @@ git add .
 
 git commit -m "this is second workflow called isnpect"
 
+
+
+
+
+cd /root/actions-journey
+
+# Remove any broken/missing remote just in case
+git remote remove origin 2>/dev/null || true
+
+# Add your GitHub repository as the origin remote
+git remote add origin https://github.com/abdulfattahassad/actions-journey.git
+
+# Push your code to GitHub
 git push -u origin main
+
+
 
 
