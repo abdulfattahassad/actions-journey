@@ -2,8 +2,8 @@
 
 git init 
 
-git config --global user.name"abdulfattahassad"
-git config --global user.email"fattahassad@gmail.com"
+git config --global user.name "abdulfattahassad"
+git config --global user.email "fattahassad@gmail.com"
 
 
 git branch -M main
