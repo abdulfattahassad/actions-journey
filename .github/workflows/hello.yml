@@ -1,0 +1,11 @@
+
+
+name: lab01
+on: push 
+jobs:
+ lab02:
+   runs-on: ubuntu-latest
+   steps:
+      - run: echo "hello"
+
+
