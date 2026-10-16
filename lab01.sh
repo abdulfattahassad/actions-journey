@@ -27,7 +27,8 @@ jobs:
 
 EOF
 
-git add .
+actionlint  .github/workflows/hello.yml  
+git add . 
 
 git commit -m "create second orflow"
 
